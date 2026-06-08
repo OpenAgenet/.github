@@ -14,7 +14,10 @@ OpenAgenet is an infrastructure project for trusted Agent registration, governan
 
 - `oan-site`: static website, public trial network pages, and developer entry points.
 - `oan-trial-network`: public trial network registry, node application process, and operator-facing network materials.
-- `oan-reference-services`: reference Rust services for Root, Registrar, Discovery, and CDN nodes.
+- `oan-root-services`: Root, CDN, and CDN publisher services.
+- `oan-registrar-node`: Registrar service.
+- `oan-discovery-node`: Discovery service.
+- `oan-reference-services`: archived legacy aggregate service repository.
 - `oan-deploy`: deployment templates and operational bootstrap assets.
 - `oan-agent-py`: Python Agent adapter SDK and reference Service/User Agent implementations.
 - `oan-sdk-ts`: TypeScript SDKs for clients, Discovery access, and web-console helpers.
@@ -27,3 +30,13 @@ OpenAgenet is an infrastructure project for trusted Agent registration, governan
 ## Stewardship Model
 
 The organization hosts collaboration and product-facing repositories. Protocol control, detailed design records, release signing tools, and compatibility authority are stewarded separately in personal core repositories and public release artifacts.
+
+## Contribution, License, and Brand Policy
+
+- Contributions are accepted under the OpenAgenet CLA in `CLA.md`.
+- Brand and official-node identity are governed by `TRADEMARKS.md` and
+  `BRAND-GUIDELINES.md`.
+- Repository licenses vary by role: core service infrastructure may use strong
+  copyleft, SDKs and tools may use permissive licenses, public documentation may
+  use Creative Commons terms, and internal repositories are not open source
+  unless explicitly marked.
