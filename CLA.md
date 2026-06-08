@@ -16,8 +16,7 @@ sublicense, distribute, and otherwise exploit your contribution as part of the
 OpenAgenet project.
 
 This grant includes the right to publish the contribution under the repository's
-current license and under future project licenses, including dual-license or
-commercial-license arrangements for official OpenAgenet distributions.
+current license and under later license updates adopted for that repository.
 
 ## 2. Patent Grant
 
@@ -31,7 +30,7 @@ combination of your contribution with the project as submitted.
 
 You keep ownership of your contribution. This CLA does not assign copyright to
 OpenAgenet. It grants the project enough rights to merge, maintain, publish,
-relicense, and commercially license the contribution when needed.
+and distribute the contribution as part of OpenAgenet.
 
 ## 4. Authority
 
@@ -58,8 +57,7 @@ Brand use is governed separately by `TRADEMARKS.md` and
 
 ## 7. Contact
 
-For contribution, relicensing, or commercial-license questions, contact:
+For contribution questions, contact:
 
 - Initial author: JINLIANG XU
 - Email: jlxufly@gmail.com
-

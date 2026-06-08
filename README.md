@@ -36,7 +36,7 @@ The organization hosts collaboration and product-facing repositories. Protocol c
 - Contributions are accepted under the OpenAgenet CLA in `CLA.md`.
 - Brand and official-node identity are governed by `TRADEMARKS.md` and
   `BRAND-GUIDELINES.md`.
-- Repository licenses vary by role: core service infrastructure may use strong
-  copyleft, SDKs and tools may use permissive licenses, public documentation may
-  use Creative Commons terms, and internal repositories are not open source
-  unless explicitly marked.
+- Repository licenses vary by role: core service infrastructure, protocol
+  shared libraries, SDKs, tools, and integration-facing code may use permissive
+  licenses such as `Apache-2.0`; public documentation may use Creative Commons
+  terms; and internal repositories are not open source unless explicitly marked.

@@ -14,20 +14,20 @@ CLA and have the right to contribute the submitted material.
 This CLA-based process keeps the project able to:
 
 - maintain open-source releases;
-- use strong copyleft licenses for core service infrastructure;
-- offer commercial or dual-license arrangements when appropriate;
-- accept community contributions without blocking future governance options.
+- use permissive licenses for core service infrastructure and shared protocol
+  libraries;
+- accept community contributions without blocking future maintenance and
+  governance options.
 
 ## License Awareness
 
 Different repositories may use different licenses:
 
-- core service and infrastructure code: usually `AGPL-3.0-only`;
-- SDKs, adapters, plugins, deployment helpers, and developer tools: usually
-  `Apache-2.0`;
+- core service, infrastructure, shared protocol, SDK, adapter, plugin,
+  deployment helper, and developer-tool code: usually `Apache-2.0`;
 - public documentation, specifications, and explanatory material: usually
   `CC-BY-4.0`;
-- internal repositories: not open source unless explicitly relicensed.
+- internal repositories: not open source unless explicitly marked otherwise.
 
 Check each repository's `LICENSE` and `NOTICE.md` before contributing.
 
@@ -44,4 +44,3 @@ when available. In particular, prefer TypeScript integration and benchmark
 tests, preserve existing coverage where possible, reuse genesis service-node
 identity fixtures, and route full validation through
 `oan-release-tools/scripts/run-full-regression.ts`.
-
